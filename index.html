@@ -66,6 +66,26 @@
               </p>
             </td>
           </tr>
+          <tr onmouseout="caddn_stop()" onmouseover="caddn_start()"  bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='caddn_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/caddn.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/caddn.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function caddn_start() {
+                  document.getElementById('caddn_image').style.opacity = "1";
+                }
+
+                function caddn_stop() {
+                  document.getElementById('caddn_image').style.opacity = "0";
+                }
+                caddn_stop()
+              </script>
+            </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://trailab.github.io/CaDDN/">
                 <papertitle>Categorical Depth Distribution Network for Monocular 3D Object Detection</papertitle>
@@ -97,7 +117,7 @@
               </a>
               <br>
               <a href="https://scholar.google.ca/citations?user=ymEYdWYAAAAJ&hl=en&oi=sra">Matt Angus</a>,
-              <a href="https://www.linkedin.com/in/mohamed-elbalkini-946408137/">Ali Harakeh</a>,
+              <a href="https://www.linkedin.com/in/mohamed-elbalkini-946408137/">Mohamed ElBalkini</a>,
               <a href="https://scholar.google.ca/citations?user=Dzf0l6QAAAAJ&hl=en">Samin Khan</a>,
               <a href="https://www.aharakeh.com/">Ali Harakeh</a>,
               <a href="http://andrienko.ca/">Oles Andrienko</a>,
@@ -105,7 +125,7 @@
               <a href="https://www.trailab.utias.utoronto.ca/stevenwaslander">Steven Waslander</a>,
               <a href="https://gsd.uwaterloo.ca/kczarnec">Krzysztof Czarnecki</a>
               <br>
-              <em>ITSC</em>, 2018 <font color="red"><strong>(Oral Presentation)</strong></font>
+              <em>ITSC</em>, 2018
               <br>
               <a href="https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/ursa">Project Page</a>
               /
