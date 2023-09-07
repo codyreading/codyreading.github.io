@@ -25,7 +25,7 @@
               <p>
                I received my master's degree from the  <a href="https://www.utoronto.ca/">University of Toronto</a> supervised by <a href="https://www.trailab.utias.utoronto.ca/stevenwaslander">Steven Waslander</a>,
                and received my bachelor's degree from the  <a href="https://uwaterloo.ca/">University of Waterloo</a>.
-               I also worked at <a href="https://monstersaliensrobotszombies.com/">MARZ</a>  developing <a href="https://monstersaliensrobotszombies.com/vanityai">Vanity AI</a>, a ML-assited facial editing tool for VFX artists.
+               I also worked at <a href="https://monstersaliensrobotszombies.com/">MARZ</a>  developing <a href="https://monstersaliensrobotszombies.com/vanityai">Vanity AI</a>, an AI solution for facial editing for VFX.
               </p>
               <p style="text-align:center">
                 <a href="mailto:codyreading@gmail.com">Email</a> &nbsp/&nbsp
@@ -43,12 +43,53 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+              <heading>Research Experience</heading>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="bayesrays_stop()" onmouseover="bayes_rays_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='bayes_rays_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/bayes_rays.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/bayes_rays.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function bayes_rays_start() {
+                  document.getElementById('bayes_rays_image').style.opacity = "1";
+                }
 
+                function bayes_rays_stop() {
+                  document.getElementById('bayes_rays_image').style.opacity = "0";
+                }
+                bayes_rays_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2309.03185">
+                <papertitle>Bayes' Rays: Uncertainty Quantification for Neural Radiance Fields</papertitle>
+              </a>
+              <br>
+              <a href="https://lilygoli.github.io/">Lily Goli</a>,
+              <strong>Cody Reading</strong>,
+              <a href="https://www.silviasellan.com/">Silvia Sellán</a>
+              <a href="https://www.cs.toronto.edu/~jacobson/">Alec Jacobson</a>
+							<a href="https://taiya.github.io/">Andrea Tagliasacchi</a>
+              <br>
+              <em>arXiv</em>, 2023
+              <br>
+              <a href="https://bayesrays.github.io/">Project Page</a>
+              /
+              <a href="https://arxiv.org/abs/2309.03185">arXiv</a>
+              <p></p>
+              <p>
+              We introduce a post-hoc framework to evaluate uncertainty in any pre-trained NeRF without modifying the training process.
+              </p>
+            </td>
+          </tr>
           <tr onmouseout="intertrack_stop()" onmouseover="intertrack_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
