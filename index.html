@@ -90,6 +90,49 @@
               </p>
             </td>
           </tr>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="banf_stop()" onmouseover="banf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='banf_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/banf.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/banf.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function banf_start() {
+                    document.getElementById('banf_image').style.opacity = "1";
+                  }
+
+                  function banf_stop() {
+                    document.getElementById('banf_image').style.opacity = "0";
+                  }
+                  banf_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://bayesrays.github.io/">
+                  <papertitle>BANF: Band-limited Neural Fields for Levels of Detail Reconstruction</papertitle>
+                </a>
+                <br>
+                <a href="https://lilygoli.github.io/">Lily Goli</a>,
+                <strong>Cody Reading</strong>,
+                <a href="https://www.silviasellan.com/">Silvia Sellán</a>,
+                <a href="https://www.cs.toronto.edu/~jacobson/">Alec Jacobson</a>,
+                <a href="https://taiya.github.io/">Andrea Tagliasacchi</a>
+                <br>
+                <em>CVPR</em>, 2024 <font color="red"><strong>(Highlight)</strong></font>
+                <br>
+                <a href="https://bayesrays.github.io/">Project Page</a>
+                /
+                <a href="https://arxiv.org/abs/2309.03185">arXiv</a>
+                <p></p>
+                <p>
+                We introduce a post-hoc framework to evaluate uncertainty in any pre-trained NeRF without modifying the training process.
+                </p>
+              </td>
+            </tr>
           <tr onmouseout="intertrack_stop()" onmouseover="intertrack_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
