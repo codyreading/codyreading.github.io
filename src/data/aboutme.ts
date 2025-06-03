@@ -25,8 +25,7 @@ export const aboutMe: AboutMe = {
   description:
     "I am a 3D computer vision researcher, interested in perception, reconstruction, and generation. and. I aim to develop tools that understand our surrounding 3D world. <br><br> I received my master's degree from the  <a href='https://www.utoronto.ca/'>University of Toronto</a> supervised by <a href='https://www.trailab.utias.utoronto.ca/stevenwaslander'>Steven Waslander</a>, and received my bachelor's degree from the  <a href='https://uwaterloo.ca/'>University of Waterloo</a>. I worked at <a href='https://monstersaliensrobotszombies.com/'>MARZ</a> developing <a href='https://monstersaliensrobotszombies.com/vanityai'>Vanity AI</a>, an AI solution for facial editing for VFX, and at <a href='https://www.noahlab.com.hk/#/home'>Huawei Noah’s Ark Lab</a> working on indoor mobile robotic applications.",
   email: "codyreading@gmail.com",
-  imageUrl:
-    "https://codyreading.github.io/images/CodyReading.jpeg",
+  imageUrl: "/images/CodyReading.jpeg",
   googleScholarUrl: "https://scholar.google.com/citations?user=VqvADvQAAAAJ&hl=en",
   githubUsername: "codyreading",
   linkedinUsername: "codyreading",
