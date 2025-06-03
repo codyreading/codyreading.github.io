@@ -3,11 +3,13 @@ export interface Publication {
   conference: string;
   title: string;
   authors: string;
+  projectUrl?: string;
   paperUrl?: string;
   codeUrl?: string;
   bibtex?: string;
   tldr?: string;
   imageUrl?: string;
+  videoUrl?: string;
   award?: string;
 }
 
