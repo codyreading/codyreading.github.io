@@ -10,21 +10,19 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "Summer 2023",
-    title: "Research Intern",
-    company: "DeepMind",
+    date: "July 2024 - June 2025",
+    title: "Senior Researcher",
+    company: "Huawei Noah's Ark Lab",
     description:
-      "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",
+      "Built indoor mobile robotic applications to enable manipulation and navigation",
+    companyUrl: "https://www.noahlab.com.hk/#/home",
   },
   {
-    date: "Summer 2022",
-    title: "Research Intern",
-    company: "Google Research",
+    date: "Jan. 2022 - Aug. 2023",
+    title: "Machine Learning Research Associate ",
+    company: "MARZ",
     description:
-      "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",
+      "Developed a facial de-aging tool Vanity AI designed for VFX applications, achieving 300x speed up compared to traditional VFX workflows.",
+    companyUrl: "https://monstersaliensrobotszombies.com/",
   },
 ];

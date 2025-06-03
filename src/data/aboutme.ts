@@ -23,17 +23,14 @@ export const aboutMe: AboutMe = {
   institution: "",
   // Note that links work in the description
   description:
-    "I am a 3D computer vision researcher, interested in 3D perception, 3D reconstruction, and 3D generation. and. I aim to develop tools that understand our surrounding 3D world.",
-    // I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
+    "I am a 3D computer vision researcher, interested in perception, reconstruction, and generation. and. I aim to develop tools that understand our surrounding 3D world. <br><br> I received my master's degree from the  <a href='https://www.utoronto.ca/'>University of Toronto</a> supervised by <a href='https://www.trailab.utias.utoronto.ca/stevenwaslander'>Steven Waslander</a>, and received my bachelor's degree from the  <a href='https://uwaterloo.ca/'>University of Waterloo</a>. I worked at <a href='https://monstersaliensrobotszombies.com/'>MARZ</a> developing <a href='https://monstersaliensrobotszombies.com/vanityai'>Vanity AI</a>, an AI solution for facial editing for VFX, and at <a href='https://www.noahlab.com.hk/#/home'>Huawei Noah’s Ark Lab</a> working on indoor mobile robotic applications.",
   email: "codyreading@gmail.com",
   imageUrl:
     "https://codyreading.github.io/images/CodyReading.jpeg",
   googleScholarUrl: "https://scholar.google.com/citations?user=VqvADvQAAAAJ&hl=en",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
+  githubUsername: "codyreading",
+  linkedinUsername: "codyreading",
   twitterUsername: "code_red7777",
   cvUrl: "https://codyreading.github.io/data/CodyReading-Resume.pdf",
   institutionUrl: "codyreading@gmail.com",
-  // altName: "",
-  // secretDescription: "I like dogs.",
 };
