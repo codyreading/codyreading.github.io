@@ -30,6 +30,6 @@ export const aboutMe: AboutMe = {
   githubUsername: "codyreading",
   linkedinUsername: "codyreading",
   twitterUsername: "code_red7777",
-  cvUrl: "https://codyreading.github.io/data/CodyReading-Resume.pdf",
+  cvUrl: "/pdfs/Cody_Reading_Resume.pdf",
   institutionUrl: "codyreading@gmail.com",
 };

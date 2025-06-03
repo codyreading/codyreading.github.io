@@ -22,18 +22,53 @@ export const publicationData: Publication[] = [
     paperUrl: "https://arxiv.org/abs/2309.03185",
     codeUrl: "https://github.com/BayesRays/BayesRays",
     tldr: "A post-hoc framework to evaluate uncertainty in any pre-trained NeRF without modifying the training process.",
-    //imageUrl:
-    //  "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     award: "Highlight",
-    // if you have an image in public/images, you can use it like this:
-    // imageUrl: "/images/publication-image.jpg"
+    imageUrl: "/images/bayes_rays.png"
+  },
+  {
+    year: "2024",
+    conference: "CVPR",
+    title: "BANF: Band-limited Neural Fields for Levels of Detail Reconstruction",
+    authors: "Ahan Shabanov, Shrisudhan Govindarajan, Cody Reading, Lily Goli, Daniel Rebain, Kwang Moo Yi, Andrea Tagliasacchi",
+    tldr: "A method for band-limited frequency decomposition in neural fields",
+    projectUrl: "https://theialab.github.io/banf",
+    paperUrl: "https://arxiv.org/abs/2404.13024",
+    codeUrl: "https://github.com/theialab/banf",
+    imageUrl: "/images/banf.png"
   },
   {
     year: "2023",
-    conference: "ICML",
-    title: "Robust Causal Discovery Under Distribution Shift",
-    authors: "Jane Smith, Xue Chen, Sarah Johnson",
-    paperUrl: "https://arxiv.org/abs/2302.13095",
-    codeUrl: "https://github.com/jsmith/robust-causal-discovery",
+    conference: "CRV",
+    title: "InterTrack: Interaction Transformer for 3D Multi-Object Tracking",
+    authors: "John Willes, Cody Reading, Steven Waslander",
+    tldr: "Interaction Transformer improves discriminative feature learning and object association",
+    paperUrl: "https://arxiv.org/abs/2208.08041",
+    videoUrl: "https://www.youtube.com/watch?v=81hZcZcSsBA&ab_channel=trailab",
+    award: "Oral Presentation",
+    imageUrl: "/images/intertrack.png"
+  },
+  {
+    year: "2021",
+    conference: "CVPR",
+    title: "Categorical Depth Distribution Network for Monocular 3D Object Detection",
+    authors: "Cody Reading, Ali Harakeh, Julia Chae, Steven Waslander",
+    tldr: "Estimating categorical depth distributions results in accurate image feature projection into 3D",
+    projectUrl: "https://trailab.github.io/CaDDN/",
+    paperUrl: "https://arxiv.org/abs/2103.01100",
+    codeUrl: "https://github.com/TRAILab/CaDDN",
+    videoUrl: "https://www.youtube.com/watch?v=E3NoO_c6tPg&t=3s&ab_channel=trailab",
+    award: "Oral Presentation",
+    imageUrl: "/images/caddn.png"
+  },
+  {
+    year: "2018",
+    conference: "ITSC",
+    title: "Unlimited Road-scene Synthetic Annotation (URSA) Dataset",
+    authors: "Matt Angus, Mohamed ElBalkini, Samin Khan, Ali Harakeh, Oles Andrienko, Cody Reading, Steven Waslander, Krzysztof Czarnecki",
+    tldr: "Synthetic dataset generation for autonomous vehicle semantic segmentation based on GTA V",
+    projectUrl: "https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/ursa",
+    paperUrl: "https://arxiv.org/abs/1807.06056",
+    videoUrl: "https://www.youtube.com/watch?v=Z6q1x-IGj_4&ab_channel=MohamedElBalkini",
+    imageUrl: "/images/ursa.png"
   },
 ];
