@@ -15,6 +15,17 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
+   {
+    year: "2025",
+    conference: "arXiv",
+    title: "Ark: An Open-source Python-based Framework for Robot Learning",
+    authors: "Magnus Dierking, Christopher E. Mower, Sarthak Das, Huang Helong, Jiacheng Qiu, Cody Reading, Wei Chen, Huidong Liang, Huang Guowei, Jan Peters, Quan Xingyue, Jun Wang, Haitham Bou-Ammar",
+    projectUrl: "https://robotics-ark.github.io/ark_robotics.github.io/",
+    paperUrl: "https://arxiv.org/abs/2506.21628",
+    codeUrl: "https://github.com/Robotics-Ark",
+    tldr: "A distributed robotics framework that simplifies the development of robotic applications",
+    imageUrl: "/images/Ark.png"
+  },
   {
     year: "2024",
     conference: "CVPR",
@@ -23,7 +34,7 @@ export const publicationData: Publication[] = [
     projectUrl: "https://bayesrays.github.io/",
     paperUrl: "https://arxiv.org/abs/2309.03185",
     codeUrl: "https://github.com/BayesRays/BayesRays",
-    tldr: "A post-hoc framework to evaluate uncertainty in any pre-trained NeRF without modifying the training process.",
+    tldr: "A post-hoc framework to evaluate uncertainty in any pre-trained NeRF without modifying the training process",
     award: "Highlight",
     imageUrl: "/images/bayes_rays.png"
   },
